@@ -18,9 +18,12 @@ jobs:
           distribution: "temurin"
           java-version: "17"
 
-      - name: Remove local.properties and make gradlew executable
+      - name: Prepare environment and gradlew
         run: |
           rm -f local.properties
+          if [ -f gradle.properties ]; then
+            sed -i '/^org\.gradle\.java\.home=/d' gradle.properties
+          fi
           chmod +x gradlew
 
       - name: Build Debug APK

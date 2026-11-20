@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Flowz</string>
+    <string name="app_name_short">Flowz</string>
+
+    <!-- Home -->
+    <string name="popular_animes">Populares</string>
+    <string name="new_animes">Nuevos</string>
+    <string name="recent_animes">Recientes</string>
+    <string name="recommendations">Recomendados</string>
+    <string name="castellano_dub">Castellano</string>
+    <string name="latino_dub">Latino</string>
+    <string name="calendar">Calendario</string>
+
+    <!-- Search -->
+    <string name="search_hint">Buscar anime...</string>
+    <string name="search_no_results">No se encontraron resultados</string>
+    <string name="filters">Filtros</string>
+
+    <!-- Anime Detail -->
+    <string name="episodes">Episodios</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="genres">Géneros</string>
+    <string name="status">Estado</string>
+    <string name="type">Tipo</string>
+    <string name="rating">Puntuación</string>
+    <string name="add_to_favorites">Añadir a favoritos</string>
+    <string name="add_to_watch_later">Ver después</string>
+
+    <!-- Player -->
+    <string name="select_server">Seleccionar servidor</string>
+    <string name="select_quality">Seleccionar calidad</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="loading_video">Cargando video...</string>
+    <string name="error_loading_video">Error cargando el video</string>
+    <string name="no_servers_available">No hay servidores disponibles</string>
+    <string name="try_another_server">Probar otro servidor</string>
+
+    <!-- Settings -->
+    <string name="settings">Configuración</string>
+    <string name="theme">Tema</string>
+    <string name="language">Idioma</string>
+    <string name="download_quality">Calidad de descarga</string>
+    <string name="auto_play_next">Reproducir siguiente automáticamente</string>
+    <string name="clear_cache">Limpiar caché</string>
+    <string name="about">Acerca de</string>
+
+    <!-- Profile -->
+    <string name="profile">Perfil</string>
+    <string name="favorites">Favoritos</string>
+    <string name="watch_later">Ver después</string>
+    <string name="history">Historial</string>
+    <string name="downloads">Descargas</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- Errors -->
+    <string name="error_network">Error de conexión</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="retry">Reintentar</string>
+
+    <!-- Common -->
+    <string name="loading">Cargando...</string>
+    <string name="empty">No hay contenido</string>
+</resources>

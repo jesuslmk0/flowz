@@ -1,4 +1,4 @@
-﻿name: Build Flowz APK
+name: Build Flowz APK
 
 on:
   push:
@@ -20,12 +20,11 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          api-level: 34
-          build-tools-version: "34.0.0"
 
-      - name: Make gradlew executable
-        run: chmod +x gradlew
+      - name: Remove local.properties and make gradlew executable
+        run: |
+          rm -f local.properties
+          chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug -x lint -x test
